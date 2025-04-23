@@ -1,0 +1,27 @@
+{
+  "name": "geometry-dash-clone",
+  "version": "1.0.0",
+  "description": "A Geometry Dash-inspired 2D platformer game.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "geometry-dash",
+    "platformer",
+    "game",
+    "typescript"
+  ],
+  "author": "purpleguy2423",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0",
+    "vite-plugin-tsconfig-paths": "^4.0.0"
+  },
+  "dependencies": {
+    "howler": "^2.2.0"  // Add this if you want advanced audio support
+  }
+}
